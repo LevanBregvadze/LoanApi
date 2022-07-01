@@ -1,0 +1,2 @@
+2022-06-26 15:10:17.4111 ERROR System.Exception: Error
+   at LoanApi.Controllers.UserController.Registration(SystemUser sysUser) in C:\Users\l.bregvadze\Desktop\FinalProject\LoanApi\LoanApi\Controllers\UserController.cs:line 69

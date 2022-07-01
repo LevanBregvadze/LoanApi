@@ -1,0 +1,8 @@
+2022-06-28 16:47:45.7215 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanApi.Service.Customer.Command.UpdateCustomer.UpdateCustomer.UpdateCustomerDetailes(Customer customer, Int32 id, Boolean isAdmin, Int32 currentUserId) in C:\Users\l.bregvadze\Desktop\FinalProject\LoanApi\LoanApi\Service\Customer\Command\UpdateCustomer\UpdateCustomer.cs:line 36
+   at LoanApi.Controllers.CustomerController.UpdateById(Customer customer, Int32 id) in C:\Users\l.bregvadze\Desktop\FinalProject\LoanApi\LoanApi\Controllers\CustomerController.cs:line 94
+2022-06-28 17:59:29.2478 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanApi.Controllers.CustomerController.GetCustomerById(Int32 id) in C:\Users\l.bregvadze\Desktop\FinalProject\LoanApi\LoanApi\Controllers\CustomerController.cs:line 72
+2022-06-28 18:20:15.6242 ERROR System.NullReferenceException: Object reference not set to an instance of an object.
+   at LoanApi.Service.Loan.Command.LoanCommand.AddLoan(Loan loan, Int32 id, Boolean isAdmin, Int32 currentUserId) in C:\Users\l.bregvadze\Desktop\FinalProject\LoanApi\LoanApi\Service\Loan\Command\LoanCommand.cs:line 33
+   at LoanApi.Controllers.LoanController.RequestLoanByCustomerId(Loan loan, Int32 customerId) in C:\Users\l.bregvadze\Desktop\FinalProject\LoanApi\LoanApi\Controllers\LoanController.cs:line 47
